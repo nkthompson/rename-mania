@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica"; /* Use American Typewriter, and fallback to Arial and sans-serif */
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #E31C79; /* Change the button color to hot pink */
+  color: white;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.page-wrapper {
+  padding: 10px;
+  background-color: black;
+}
+
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 0px;
+}
